@@ -1,0 +1,22 @@
+.throwsContainer {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.throwButton {
+    font-size: 60px;
+    padding: 50px;
+    border: #282c34 solid 1px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.throwButtonSelected {
+    background-color: rgba(29, 90, 245, 0.08);
+}
+
+.throwButton:hover {
+    background-color: rgba(40, 44, 52, 0.08);
+}
