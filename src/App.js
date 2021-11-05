@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import RpsThrowComponent from "./rps-throw-component/rps-throw-component";
+import {GameComponent} from "./game-component/game-component";
 
 function App() {
   return (
-    <RpsThrowComponent />
+    <GameComponent />
   );
 }
 
